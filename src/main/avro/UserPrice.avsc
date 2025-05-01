@@ -1,0 +1,9 @@
+{
+  "namespace": "org.example.avro",
+  "type": "record",
+  "name": "UserPrice",
+  "fields": [
+    {"name": "status", "type": ["string", "null"]},
+    {"name": "price", "type": ["long", "null"]}
+  ]
+}

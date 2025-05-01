@@ -1,0 +1,10 @@
+{
+  "namespace": "org.example.avro",
+  "type": "record",
+  "name": "TeamUser",
+  "fields": [
+    {"name": "teamId", "type": "long"},
+    {"name": "userId", "type": "long"},
+    {"name": "courier", "type": ["string", "null"]}
+  ]
+}
